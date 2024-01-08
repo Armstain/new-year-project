@@ -103,3 +103,44 @@
   font-size: 20px;
   font-weight: 700;
 }
+/* Date Section */
+.date-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 120px;
+  height: 482px;
+  text-align: center;
+}
+/* dpt = date place time */
+.dpt {
+  padding-top: 100px;
+}
+.dpt h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 56px;
+  font-weight: 600;
+}
+#date {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.date-button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #f00;
+  padding: 16px 32px;
+  margin-top: 48px;
+}
