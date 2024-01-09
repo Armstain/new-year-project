@@ -75,9 +75,6 @@
   margin-top: 120px;
   height: 600px;
 }
-/* .join-flex {
-  display: flex;
-} */
 .join-text {
   width: 642px;
   color: #fff;
@@ -202,7 +199,56 @@
   padding-top: 40px;
 }
 
+/* sale Section */
+.sale-section {
+  margin-top: 120px;
+}
+
+.sale-text {
+  text-align: center;
+}
+.sale-text h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale-text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+#holiday-color {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.sale-pics {
+  margin-top: 70px;
+}
+#woman {
+  float: right;
+  position: relative;
+}
+#discount {
+  position: absolute;
+  margin: 40px 0px 0px 800px;
+  z-index: 1;
+}
+#red-square {
+  position: relative;
+}
+#gift {
+  position: absolute;
+  z-index: 1;
+}
+
 /* product-section */
+.product-section {
+  margin-top: 120px;
+}
 .product-text h3 {
   color: #f00;
   font-family: Inter;
@@ -229,6 +275,14 @@
   justify-content: space-around;
   gap: 15px;
   border-radius: 16px;
+}
+.product-showcase-1 img:hover {
+  border: 5px solid black;
+  border-radius: 18px;
+}
+.product-showcase-2 img:hover {
+  border: 5px solid black;
+  border-radius: 18px;
 }
 .product-showcase-2 {
   margin-top: 20px;
@@ -329,4 +383,7 @@
   display: flex;
   justify-content: space-around;
   padding: 50px 0px 120px 0px;
+}
+.copyright h3 {
+  margin-left: -120px;
 }
